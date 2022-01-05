@@ -3,3 +3,50 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.top-section{
+    display: flex;
+}
+.top-section-half{
+    width: 50%;
+    padding-left: 10%;
+}
+#focused-id{
+    margin-top: 10%;
+}
+.focused-2022{
+    /* font-family: 'Kaushan Script', cursive; */
+    font-size: 30px;
+    border-left: 3px solid;
+    border-image: linear-gradient(salmon,red);
+    border-image-slice: 1;
+    border-radius: 2px;
+    padding-left: 3%;
+    font-weight: 700;
+}
+.mission{
+    color: salmon;
+}
+.top-paragraph{
+     text-align: justify;
+    font-size: 18px;    
+}
+#paragraph-item{
+    padding-top: 3px;
+}
+.explore-me-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange,tomato);
+    text-transform: uppercase;
+}
+.explore-me-button:hover{
+    color: black;
+    background-image: linear-gradient(salmon, red);
+    border-radius: 6px;
+}
+.top-section-half img{
+    width: 80%;
+}
