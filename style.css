@@ -20,7 +20,6 @@ body{
     border-left: 3px solid;
     border-image: linear-gradient(salmon,red);
     border-image-slice: 1;
-    border-radius: 2px;
     padding-left: 3%;
     font-weight: 700;
 }
