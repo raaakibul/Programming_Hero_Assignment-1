@@ -33,12 +33,16 @@ body{
 #paragraph-item{
     padding-top: 3px;
 }
+.scroll{
+    font-size: 16px;
+    padding-top: 2%;
+}
 .explore-me-button{
     text-decoration: none;
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(salmon,tomato);
     text-transform: uppercase;
 }
 .explore-me-button:hover{
@@ -48,4 +52,50 @@ body{
 }
 .top-section-half img{
     width: 80%;
+}
+
+.mission-heading{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.mission-section{
+    display: flex;
+}
+.item{
+    float: left;
+    width: 27%;
+}
+ 
+.item img{
+    width: 40%;
+    padding-left: 5%;
+}
+.mission-item{
+    margin-left: 10%;
+    /* margin-right:5%; */
+    border-radius: 25px;
+    background-image: linear-gradient(#C89D93, #CACFD2);
+}
+.vision-section{
+    margin-left: 2%;
+    border-radius: 25px;
+    background-image: linear-gradient(#FDEDEC, #FADBD8);
+      
+}
+.goals-section{
+    margin-left: 2%;
+    margin-right: 10%;
+    border-radius: 25px;
+    background-image: linear-gradient(#AEB6BF, #AAB7B8);
+}
+.mission-section h3{
+    margin-left: 35px;
+    font-size: 25px;
+}
+.mission-section p{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 10%;
 }
