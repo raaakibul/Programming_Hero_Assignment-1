@@ -139,13 +139,9 @@ a{
 .project-text{
     margin-left: 5%;
 }
-.another-background{
-    /* background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    position: right; */
+.develop-background{
     margin-left: 5%;
 }
-
 .footer-section{
     margin-top: 8%;
     width: 100%;
@@ -168,4 +164,9 @@ a{
 }
 .image-hover img:hover{
     transform: scale(1.15);
+}
+.my-work-button:hover{
+    color: black;
+    background-image: linear-gradient(salmon, red);
+    border-radius: 6px;
 }
