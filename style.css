@@ -153,6 +153,9 @@ a{
     text-align: center;
     color: #edf5f7;
 }
+.my-work img{
+    margin-left: 10%;
+}
 .image-hover img:hover{
     transform: scale(1.15);
 }
