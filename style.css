@@ -27,7 +27,7 @@ body{
     color: salmon;
 }
 .top-paragraph{
-     text-align: justify;
+    text-align: justify;
     font-size: 18px;    
 }
 #paragraph-item{
@@ -37,19 +37,23 @@ body{
     font-size: 16px;
     padding-top: 2%;
 }
+a{
+    font-size: 16px;
+}
 .explore-me-button{
     text-decoration: none;
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
-    background-image: linear-gradient(salmon,tomato);
+    /* background-image: linear-gradient(#f95c5c,#f95c5c); */
+    background-color: #f95c5c;
     text-transform: uppercase;
 }
-.explore-me-button:hover{
+/* .explore-me-button:hover{
     color: black;
     background-image: linear-gradient(salmon, red);
     border-radius: 6px;
-}
+} */
 .top-section-half img{
     width: 80%;
 }
@@ -76,19 +80,22 @@ body{
     margin-left: 10%;
     /* margin-right:5%; */
     border-radius: 25px;
-    background-image: linear-gradient(#C89D93, #CACFD2);
+    /* background-image: linear-gradient(#C89D93, #CACFD2); */
+    background-color: #edf5f7;
 }
 .vision-section{
     margin-left: 2%;
     border-radius: 25px;
-    background-image: linear-gradient(#FDEDEC, #FADBD8);
+    /* background-image: linear-gradient(#FDEDEC, #FADBD8); */
+    background-color: #ffeeee;
       
 }
 .goals-section{
     margin-left: 2%;
     margin-right: 10%;
     border-radius: 25px;
-    background-image: linear-gradient(#AEB6BF, #AAB7B8);
+    /* background-image: linear-gradient(#C89D93, #AAB7B8); */
+    background-color: #fff4d6;
 }
 .mission-section h3{
     margin-left: 35px;
@@ -98,4 +105,67 @@ body{
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 10%;
+}
+.develop-section{
+    margin-top: 7%;
+    display: flex;
+}
+.background{
+    background-image: url(images/shapes/develop-bg.png);
+    background-repeat: no-repeat;
+    position: left;
+    margin-left: 5%;
+}
+.image-section{
+    width: 40%;
+    margin-left: 5%;
+}
+.image-section img{
+    width: 75%;
+}
+.develop-half{
+     width: 55%;
+}
+.develop-heading{
+    font-size: 35px;
+    font-weight: 700;
+}
+.develop-paragraph-item{
+    width: 80%;
+    padding-right: 15px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+.project-text{
+    margin-left: 5%;
+}
+.another-background{
+    /* background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    position: right; */
+    margin-left: 5%;
+}
+
+.footer-section{
+    margin-top: 8%;
+    width: 100%;
+    background-color: #0b0e17;
+    height: 200px;
+}
+.footer-section h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    color: #fffffd;
+    font-style: italic;
+}
+#text-color{
+    color: #eb6367;
+}
+.footer-section p{
+    text-align: center;
+    color: #edf5f7;
+}
+.image-hover img:hover{
+    transform: scale(1.15);
 }
